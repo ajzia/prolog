@@ -1,5 +1,5 @@
 %   compiling:  |   usage:
-%   ?- [zad1].  |   ?- coloring().
+%   ?- [zad1].  |   ?- coloring(X), label(X).
 
 % ?- coloring(X), label(X).
 % X = [1, 2, 1, 3, 2, 3, 1, 2, 3] ;
