@@ -1,11 +1,11 @@
 %   compiling:  |   usage:
-%   ?- [zad1].  |   merge(List1, List2, MergedList).
+%   ?- [zad1].  |   ?- merge(List1, List2, MergedList).
 %               |   ! List1 and List2 are sorted in a non descending order !
 
-% merge([1,3], [2,4], X).
+% ?- merge([1,3], [2,4], X).
 % X = [1, 2, 3, 4].
 %
-% merge([1,3|A], [2,4|B], X).
+% ?- merge([1,3|A], [2,4|B], X).
 % X = [1, 2, 3|_1626],
 % freeze(A,  (A=[_1666|_1668]->freeze([4|B],  ([4|B]=[_1702|_1704]->(_1666=<_1702-> ... = ..., merge(..., ..., ...);_1626=[...|...], merge(A, _1704, _1740));_1626=A));_1626=[4|B])).
 
