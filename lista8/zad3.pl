@@ -23,3 +23,11 @@ interval(List) :-
   append(X, Y, List),
   chain(X, #=<), % linear?
   chain(Y, #>=). % linear?
+
+% ?
+odcinek(List):-
+  length(List, 16),
+  List ins 0..1,
+  sum(List, #=, 8),
+  append(W, _, List),
+  append(_, [1,1,1,1,1,1,1,1], W).
