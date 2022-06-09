@@ -27,15 +27,15 @@
 
 :- use_module(library(clpfd)).
 
-place_squares([],[],_,_,[]).
-place_squares([s(X, S, Y, S) | B], [S | T], W, H, [X, Y | C]) :-
+fit_squares([],[],_,_,[]).
+fit_squares([s(X, S, Y, S) | B], [S | T], W, H, [X, Y | C]) :-
   X1 #= W - S, 
   X in 0..X1,
   Y1 #= H - S, 
   Y in 0..Y1,
-  place_squares(B, T, W, H, C).
+  fit_squares(B, T, W, H, C).
 
 squares(Sizes, Width, Height, Coords) :-
-  place_squares(Squares, Sizes, Width, Height, Coords),
+  fit_squares(Squares, Sizes, Width, Height, Coords),
   disjoint2(Squares),
   label(Coords).
