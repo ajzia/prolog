@@ -1,8 +1,3 @@
-% Napisz w SWI-Prologu z wykorzystaniem programowania ograniczen predykat
-% plecak(+Wartosci, +Wielkosci, +Pojemnosc, -Zmienne), ktory dla danej
-% listy wartosci przedmiotow, listy wielkosci przedmiotow i pojemnosci plecaka,
-% rozwiązuje dyskretny problem plecakowy.
-
 %   compiling:  |   usage:
 %   ?- [zad2].  |   ?- backpack(Values, Weights, Capacity, Vars).
 %               |   ! Values and Weights have to have the same length. !
