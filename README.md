@@ -3,13 +3,13 @@ This repository contains solutions of exercises from my university course *Progr
 
 Every list has its own theme covering different aspects of prolog.
 
-##### Themes:
-- [List no. 1](https://github.com/ajzia/prolog/blob/master/lista1/pl_lista1.pdf): Facts and rules.
-- [List no. 2](https://github.com/ajzia/prolog/blob/master/lista2/pl_lista2.pdf): Data structures.
-- [List no. 3](https://github.com/ajzia/prolog/blob/master/lista3/pl_lista3.pdf): Recursion and caudal recursion.
-- [List no. 4](https://github.com/ajzia/prolog/blob/master/lista4/pl_lista4.pdf): Searching for solutions.
-- [List no. 5](https://github.com/ajzia/prolog/blob/master/lista5/pl_lista5.pdf): Input and output.
-- [List no. 6](https://github.com/ajzia/prolog/blob/master/lista6/pl_lista6.pdf): Definite Clause Grammars.
-- [List no. 7](https://github.com/ajzia/prolog/blob/master/lista7/pl_lista7.pdf): Coroutines and threads.
-- [List no. 8](https://github.com/ajzia/prolog/blob/master/lista8/pl_lista8.pdf): Arithmetic constraints.
-- [List no. 9](https://github.com/ajzia/prolog/blob/master/lista9/pl_lista9.pdf): Global combinatorial constraints.
+##### Subjects:
+1. Facts and rules.
+2. Data structures.
+3. Recursion and caudal recursion.
+4. Searching for solutions.
+5. Input and output.
+6. Definite Clause Grammars.
+7. Coroutines and threads.
+8. Arithmetic constraints.
+9. Global combinatorial constraints.
